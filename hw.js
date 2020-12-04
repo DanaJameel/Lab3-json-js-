@@ -1,6 +1,9 @@
+
+//Dana Jameel Alshalfouh   220171822
+
 const HomeWork =  require ('./hw.json');
 
-// 1. All topping types
+// 1. All topping types (without repetition)
 function AllToppingType (){
     for(let i=0 ; i<HomeWork[0].topping.length ; i++){
         console.log(HomeWork[0].topping[i].type); 
